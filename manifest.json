@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Field Filler",
+    "version": "0.1",
+
+    "description": "auto fills text fields of the webpage which allows you to change the old password to new password",
+    "homepage_url": "https://github.com/k-bose/field-filler",
+    "icons":{
+        "48": "icons/finimalism.svg",
+        "96": "icons/finimalism.svg"
+    },
+
+    "permissions": ["activeTab"],
+
+    "browser_action":{
+        "default_icon": "icons/finimalism.svg",
+        "default_title": "Field Filler",
+        "default_popup": "popup/filler.html"
+    }
+}
